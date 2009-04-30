@@ -55,8 +55,9 @@ html, body {
 }
 
 #content {
+	float: left;
 	margin: 0 auto;
-	width: 60%;
+	width: 750px;
 	height: 100%;
 	background-color: white;
 	opacity: 0.3;	
@@ -66,3 +67,25 @@ html, body {
 	color: black;
 	opacity: 1;	
 	}
+	
+#header {
+	height: 200px;
+	width: 100%;
+	background-color: green;	
+}
+
+#footer {
+	height: 100px;
+	width: 750px;
+	background-color: yellow;
+	bottom: 0;
+	position: fixed;
+}
+
+#menu {
+	float:left;
+	height: 100%;
+	width: 250px;
+	background-color: blue;
+	
+}
